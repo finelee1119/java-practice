@@ -35,9 +35,10 @@ public class Main2 {
 
         while (true) {
             int plusMoney = 0;
-            
+
+            // 초기 화면
             if(firstView) {
-                // 초기 화면
+
                 System.out.println("=================================================================");
                 System.out.println("자판기 입니다.(번호: 상품(가격)-재고)");
                 for (int i = 0; i < MAX_PRODUCT; i++) {
@@ -48,8 +49,8 @@ public class Main2 {
                 System.out.println();
                 System.out.println("=================================================================");
 
+                // 1. (첫 구매 시) 금액 입력
                 if(firstInput) {
-                    // 1. 금액 입력
                     System.out.print("돈을 넣어주세요: ");
                     currentMoney = scanner.nextInt();
                     firstInput = false;
