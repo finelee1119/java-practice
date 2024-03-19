@@ -1,8 +1,8 @@
-package izen.legacyVmachine;
+package izen.legacyVmachine.try0;
 
 import java.util.Scanner;
 
-public class Main {
+public class Main0 {
     // 초기값 정리
     static Scanner scanner = new Scanner(System.in);
 
