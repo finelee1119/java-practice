@@ -54,6 +54,7 @@ public class Main2 {
                     currentMoney = scanner.nextInt();
                     firstInput = false;
 
+                    // 관리자 메뉴
                     if(currentMoney == 1004) {
                         while (true) {
                             System.out.println("관리자 페이지 입니다.");
