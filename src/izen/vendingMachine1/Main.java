@@ -1,8 +1,8 @@
-package izen.legacyVmachine.try2;
+package izen.vendingMachine1;
 
 import java.util.Scanner;
 
-public class Main2 {
+public class Main {
     // 초기 세팅
     static final int MAX_PRODUCT = 5;
     static String[] product = new String[MAX_PRODUCT];
